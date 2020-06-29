@@ -1,5 +1,5 @@
 const balance = document.getElementById('balance');
-const moeny_plus = document.getElementById('money-plus');
+const money_plus = document.getElementById('money-plus');
 const money_minus = document.getElementById('money-minus');
 const list = document.getElementById('list');
 const form = document.getElementById('form');
@@ -22,7 +22,7 @@ const localStorageTransactions = JSON.parse(
 let transactions =
   localStorage.getItem('transactions') !== null ? localStorageTransactions : [];
 
-// Add transaction
+// Add transactions
 function addTransaction(e) {
   e.preventDefault();
 
